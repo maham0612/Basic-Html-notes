@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- The "for" attribute should match the "id" of the element -->
+    <form>
+        <div>
+            <label for="name">Name : </label><br>
+            <input type="text" id="name" placeholder="Enter your name ">
+        </div>
+
+        <div>
+            <label for="phone">Phone : </label><br>
+            <input type="tel" id="phone" placeholder="Enter your tel no">
+        </div>
+
+        <div>
+            <label for="Password">Password</label><br>
+            <input type="password" id="Password" placeholder="Enter Password">
+        </div>
+
+        <div>
+            <label for="Email">Email</label><br>
+            <input type="email" id="Email" placeholder="Enter email">
+        </div>
+
+        <div>
+           <br> <label for="Date">Date</label>
+            <input type="date" id="Date">
+        </div>
+        
+        <!-- Selection -->
+        <div>
+            <label for="Gender">Gender</label>
+            <Select id="Gender" name="Gender">
+                <option value="" disabled selected>Select gender</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Other">Other</option>
+            </Select>
+        </div>
+
+        <div>
+            <label for="Nationality">Nationality</label>
+            <Select name="Nationality" id="Nationality">
+                <option value="" disabled selected>Select Nationality</option>
+                <option value="Pakistan">Pakistan</option>
+                <option value="China">China</option>
+                <option value="America">America</option>
+            </Select>
+        </div>
+
+        <p>Choose your favourite Web Language</p>
+        <div>
+            <input type="radio" id="html" name="fav_language" value="html">
+            <label for="html">Html</label>
+
+            <input type="radio" id = "CSS" name="fav_language" value="css">
+            <label for="CSS">CSS</label>
+
+            <input type="radio" id = "Javascript" name="fav_language" value="js">
+            <label for="Javascript">Javascript</label>
+        </div>
+
+        <div>
+            <label for="checkbox">Checkbox</label>
+            <input type="checkbox" id="checkbox"> Yes I agree!
+        </div>
+
+        <div>
+            <label for="comment">Comment</label>
+            <textarea type="textarea" name="comment" id="comment" placeholder="Give us your feedback"></textarea>
+        </div>
+
+        <div><button>Submit</button></div>
+    </form>
+
+</body>
+</html>

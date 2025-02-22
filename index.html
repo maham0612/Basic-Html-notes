@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<!-- Defines language of the Web page -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html</title>
+    <!-- image display with title  -->
+    <link rel="icon" type="image/x-icon" href="chrochet.png">
+</head>
+<body>
+    <!-- Heading -->
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+
+    <!-- Paragraph tag -->
+    <!-- "p" tag shows data in a paragraph not how it is written -->
+    <p>This is a Paragrah.</p>
+    <!-- "title" attribute defines some extra information about an element. -->
+    <p title="I'm a tooltip">Mouse over this paragraph, to display the title attribute as a tooltip.</p>
+    <!-- Pre tag shows data how it is written --> 
+    <pre>Hello
+        This is a Paragrah
+        using "Pre Tag"
+    </pre>
+
+    <!-- Image tag -->
+     <!-- 2 Types of URL 
+      1.  Absolute URL : Contain complete URL 
+      2. Relative URL : Contain the name of the image -->
+    <!-- The "src" attribute include the image link & "alt" attribute in the <img> tag is used to provide alternative text -->
+    <img src="chrochet.png" alt="chrochet image" width="100">
+    <!-- image as a link -->
+        <a href="default.asp">
+        <img src="smiley.gif" alt="HTML tutorial" style="width:42px;height:42px;">
+        </a>
+
+    <!-- Self closing Tag & Empty elements -->
+    <br> <!-- "br" is used for new line -->
+    <hr> <!-- "hr" is used for horizontal line. USe to add line -->
+
+    <!-- Link tag -->
+    <!-- "href" include the link -->
+    <a href="https://www.w3schools.com/html/html_links.asp">w3schools</a>
+    <br>
+    <!-- Link to send email  -->
+    <a href="mailto:someone@example.com">Send email</a>
+
+    <!-- Text Formatting -->
+     <b>This text is Bold</b>
+     <br>
+     <i>This text is italic</i>
+     <br>
+     <u>This text is underline</u>
+     <br>
+     <big>This text is big</big>    
+     <br>
+     <small>This text is small</small>
+     <br>
+     <strong>This text is important</strong>
+     <br>
+     <em>This text is emphasized</em>
+     <br>
+     <!-- <mark> element defines text that should be marked or highlighted: -->
+        <p>Do not forget to buy <mark>milk</mark> today.</p>
+    <p>My favoruite color is <del>red</del> blue</p>
+    <!-- <ins> element defines a text that has been inserted into a document.the insert element will be underline -->
+        <p>My favoruite color is <del>red</del> <ins>blue</ins> </p> 
+    <p>H<sub>2</sub>O</p>
+    <p>x<sup>2</sup></p>
+
+    <!-- Tables -->
+       <table>
+        <tr>
+            <th>Id</th>
+            <th colspan = "2">Name</th>
+            <th>Class</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td rowspan = "2">Maham</td>
+            <td>6</td>
+        </tr>
+       </table>
+
+    <!-- List -->
+        <!-- Unorder list -->
+         <ul>
+            <li>Mango</li>
+            <li>Apple</li>
+            <li>Banana</li>
+         </ul>
+        <!-- Order list -->
+         <ol>
+            <li>Apple</li>
+            <li>Banana</li>
+            <li>Orange</li>
+         </ol>
+         <!-- Description list -->
+          <!-- dl : Description list
+            dt: dt element represents the term, or name. It Defines a term
+            dd:  dd element represents the description, definition. It Describes the term  -->
+          <dl>
+            <dt>Coffe</dt>
+            <dd>- Black hot drink</dd>
+            <dt>Milk</dt>
+            <dd>- White cold drink</dd>
+          </dl>
+
+    <!-- Inline or block elements -->
+     <!-- The <div> element is a block-level element and is often used as a container for other HTML elements
+      The <span> element is an inline container used to mark up a part of a text, or a part of a document -->
+        <!-- Block Element -->
+           <div>
+            <h2>London</h2>
+            <p>London is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+           </div>
+           <p>London is the capiltal city of <div>England</div></p>
+        <!-- Inline Element -->
+            <p>London is the capiltal city of <span>England</span></p>
+
+    <!-- Class & Id -->
+        <!-- Class can given to 1 or more than 1 attribute 
+          We can give more than 1 class to 1 attribute by giving space-->
+           <div class="city main">
+             <h3>Paris</h3>
+             <p>Paris is the capital of France.</p>
+           </div>
+           <div class = "city">
+            <h2>London</h2>
+            <p>London is the capital of England.</p>
+           </div>
+           <div class = "city">
+            <h2>Tokyo</h2>
+            <p>Tokyo is the capital of Japan.</p>
+           </div>
+        <!-- The "id" attribute is used to specify a unique id for an HTML element -->
+        <h1 id ="heading1">This is heading 1</h1>
+    <!-- Button -->
+     <button><a href="Bookmark.html">Bookmark</a></button>
+</body>
+</html>
